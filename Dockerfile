@@ -23,4 +23,4 @@ RUN rbenv init -
 
 # Install Bundler
 RUN echo 'gem: --no-rdoc --no-ri' >> /.gemrc
-RUN gem install bundler && rbenv rehash
+RUN gem install bundler rubygems-update && rbenv rehash
